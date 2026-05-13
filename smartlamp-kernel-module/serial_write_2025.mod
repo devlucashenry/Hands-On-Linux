@@ -1,0 +1,2 @@
+/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/serial_write_2025.o
+

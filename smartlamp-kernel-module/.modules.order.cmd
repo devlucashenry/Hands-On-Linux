@@ -1,0 +1,1 @@
+cmd_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/modules.order := {   echo /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/test_driver.ko; :; } | awk '!x[$$0]++' - > /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/modules.order
