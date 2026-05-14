@@ -1,76 +1,98 @@
 // Defina os pinos de LED e LDR
-const int ledPin = 2;   // LED onboard (ou 4 conforme seu hardware)
-const int ldrPin = 34;  // Pino analógico 34 (ADC1)
+const int ledPin = 18;  
+const int ldrPin = 34;
 
-// Valor máximo do LDR (ajustado via teste da lanterna)
-int ldrMax = 4000; 
+// Variáveis de Controle e Protocolo
+int ldrMax = 4000;     
+int ledValue = 10;      // Intensidade do LED (0-100)
+int thresholdValue = 80; // Valor padrão para ativação automática
 
-// Variável para guardar o valor atual do LED (0 a 100)
-int ledValue = 10;
+// Controle de Tempo (Envio Periódico)
+unsigned long lastMillis = 0;
+const long interval = 2000; // 2 segundos
 
 void setup() {
     Serial.begin(9600);
-    
     pinMode(ledPin, OUTPUT);
     pinMode(ldrPin, INPUT);
     
-    // Configura o valor inicial do LED
-    ledUpdate();
-
-    Serial.printf("SmartLamp Initialized.\n");
+    ledUpdate(); // Inicia com o valor padrão
+    // Mensagem de boot não obrigatória pelo protocolo, mas útil
+    // Serial.println("SmartLamp Initialized."); 
 }
 
 void loop() {
-    // Verifica se há dados na serial
+    // 1. Processamento de Comandos Seriais
     if (Serial.available() > 0) {
-        // Lê a string até o caractere de nova linha (\n)
         String command = Serial.readStringUntil('\n');
-        command.trim(); // Remove espaços em branco extras
-        
+        command.trim();
         if (command.length() > 0) {
             processCommand(command);
         }
     }
+
+    // 2. Envio Periódico do LDR (Tarefa 1.4 - Passo 6)
+    unsigned long currentMillis = millis();
+    if (currentMillis - lastMillis >= interval) {
+        lastMillis = currentMillis;
+        // O protocolo pede exatamente: RES GET_LDR Z
+        Serial.printf("RES GET_LDR %d\n", ldrGetValue());
+    }
 }
 
 void processCommand(String command) {
-    // Comando para definir brilho: SET_LED [valor]
+    // SET_LED X
     if (command.startsWith("SET_LED ")) {
-        String valStr = command.substring(8); // Pega o que vem depois de "SET_LED "
-        ledValue = valStr.toInt();
-        ledUpdate();
-        Serial.println("RES SET_LED OK");
+        int val = command.substring(8).toInt();
+        if (val >= 0 && val <= 100) {
+            ledValue = val;
+            ledUpdate();
+            Serial.println("RES SET_LED 1"); // Sucesso conforme protocolo
+        } else {
+            Serial.println("RES SET_LED -1"); // Erro conforme protocolo
+        }
     } 
-    // Comando para ler o LED: GET_LED
+    // GET_LED
     else if (command == "GET_LED") {
-        Serial.printf("RES LED %d\n", ledValue);
+        Serial.printf("RES GET_LED %d\n", ledValue);
     }
-    // Comando para ler o LDR: GET_LDR
+    // GET_LDR
     else if (command == "GET_LDR") {
-        int ldrVal = ldrGetValue();
-        Serial.printf("RES LDR %d\n", ldrVal);
+        Serial.printf("RES GET_LDR %d\n", ldrGetValue());
+    }
+    // SET_THRESHOLD X
+    else if (command.startsWith("SET_THRESHOLD ")) {
+        int val = command.substring(14).toInt();
+        if (val >= 0 && val <= 100) {
+            thresholdValue = val;
+            Serial.println("RES SET_THRESHOLD 1");
+        } else {
+            // Valores fora do intervalo podem ser ignorados ou retornar erro
+            Serial.println("ERR Invalid value"); 
+        }
+    }
+    // GET_THRESHOLD
+    else if (command == "GET_THRESHOLD") {
+        Serial.printf("RES GET_THRESHOLD %d\n", thresholdValue);
+    }
+    // Comando Desconhecido
+    else {
+        Serial.println("ERR Unknown command.");
     }
 }
 
 void ledUpdate() {
-    // Garante que o valor esteja entre 0 e 100%
     ledValue = constrain(ledValue, 0, 100);
-    
-    // Converte a escala de 0-100 para 0-255 (PWM)
     int pwmValue = map(ledValue, 0, 100, 0, 255);
-    
-    // No ESP32 moderno, usa-se dacWrite ou ledcWrite, 
-    // mas para compatibilidade simples:
     analogWrite(ledPin, pwmValue);
 }
 
 int ldrGetValue() {
-    // Lê o valor bruto (0 a 4095 no ESP32)
     int rawValue = analogRead(ldrPin);
-    
-    // Normaliza: rawValue / ldrMax * 100
-    // Usamos constrain para não passar de 100 se o rawValue > ldrMax
+    // Normalização 0-4095 para 0-100
     int normalized = map(constrain(rawValue, 0, ldrMax), 0, ldrMax, 0, 100);
-    
-    return normalized;
+    return normalized;set
 }
+
+
+
