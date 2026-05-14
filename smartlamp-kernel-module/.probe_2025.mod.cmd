@@ -1,1 +1,1 @@
-cmd_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.mod := { echo  /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o;  echo; } > /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.mod
+cmd_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.mod := { echo  /home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o;  echo; } > /home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.mod

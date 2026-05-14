@@ -1,1 +1,0 @@
-cmd_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/test_driver.mod := { echo  /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/test_driver.o;  echo; } > /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/test_driver.mod

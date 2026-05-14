@@ -27,11 +27,11 @@ MODULE_INFO(retpoline, "Y");
 
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
-	{ 0xdc658e53, "module_layout" },
-	{ 0xaad01b89, "usb_deregister" },
-	{ 0xd670cf94, "usb_register_driver" },
+	{ 0x4efedfdd, "module_layout" },
+	{ 0xe1120e9e, "usb_deregister" },
+	{ 0x2e16f2d3, "usb_register_driver" },
 	{ 0xd0da656b, "__stack_chk_fail" },
-	{ 0x25449fcc, "usb_control_msg" },
+	{ 0xc23b0b1c, "usb_control_msg" },
 	{ 0xeb233a45, "__kmalloc" },
 	{ 0x93c7edeb, "usb_find_common_endpoints" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
@@ -44,4 +44,4 @@ MODULE_INFO(depends, "");
 
 MODULE_ALIAS("usb:v10C4pEA60d*dc*dsc*dp*ic*isc*ip*in*");
 
-MODULE_INFO(srcversion, "30C179E584B63BE08102343");
+MODULE_INFO(srcversion, "C42D94DF3B061FFF6FD03C0");

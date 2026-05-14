@@ -1,1 +1,0 @@
-cmd_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/sysfs_2025.mod := { echo  /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/sysfs_2025.o;  echo; } > /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/sysfs_2025.mod

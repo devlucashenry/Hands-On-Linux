@@ -1,8 +1,8 @@
-cmd_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := gcc -Wp,-MMD,/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/.probe_2025.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mfunction-return=thunk-extern -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"probe_2025"' -DKBUILD_MODNAME='"probe_2025"' -D__KBUILD_MODNAME=kmod_probe_2025 -c -o /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.c
+cmd_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := gcc -Wp,-MMD,/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/.probe_2025.o.d -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/13/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough=5 -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -g -gdwarf-5 -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-alloc-size-larger-than -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fno-builtin-wcslen -Wno-packed-not-aligned  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"probe_2025"' -DKBUILD_MODNAME='"probe_2025"' -D__KBUILD_MODNAME=kmod_probe_2025 -c -o /home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o /home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.c
 
-source_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := /home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.c
+source_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := /home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.c
 
-deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := \
+deps_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -40,6 +40,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
     $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/MODULE_UNLOAD) \
+    $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
   include/linux/list.h \
@@ -81,17 +82,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/PROVE_LOCKING) \
   include/linux/stdarg.h \
   include/linux/align.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  include/linux/stringify.h \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/MODULE_REL_CRCS) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
+  include/linux/array_size.h \
   include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
@@ -104,9 +95,19 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/FUNCTION_ALIGNMENT) \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/stringify.h \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+    $(wildcard include/config/MODULE_REL_CRCS) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   arch/x86/include/asm/linkage.h \
-    $(wildcard include/config/X86_64) \
-    $(wildcard include/config/X86_ALIGNMENT_16) \
     $(wildcard include/config/RETHUNK) \
     $(wildcard include/config/SLS) \
   include/linux/bitops.h \
@@ -117,60 +118,19 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
   arch/x86/include/asm/bitops.h \
+    $(wildcard include/config/X86_64) \
     $(wildcard include/config/X86_CMOV) \
   arch/x86/include/asm/alternative.h \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/extable_fixup_types.h \
-  arch/x86/include/asm/rmwcc.h \
-    $(wildcard include/config/CC_HAS_ASM_GOTO) \
-  arch/x86/include/asm/barrier.h \
-  arch/x86/include/asm/nops.h \
-  include/asm-generic/barrier.h \
-  include/asm-generic/bitops/find.h \
-    $(wildcard include/config/GENERIC_FIND_FIRST_BIT) \
-  include/asm-generic/bitops/sched.h \
-  arch/x86/include/asm/arch_hweight.h \
-  arch/x86/include/asm/cpufeatures.h \
-  arch/x86/include/asm/required-features.h \
-    $(wildcard include/config/X86_MINIMUM_CPU_FAMILY) \
-    $(wildcard include/config/MATH_EMULATION) \
-    $(wildcard include/config/X86_PAE) \
-    $(wildcard include/config/X86_CMPXCHG64) \
-    $(wildcard include/config/X86_USE_3DNOW) \
-    $(wildcard include/config/X86_P6_NOP) \
-    $(wildcard include/config/MATOM) \
-    $(wildcard include/config/PARAVIRT_XXL) \
-  arch/x86/include/asm/disabled-features.h \
-    $(wildcard include/config/X86_SMAP) \
-    $(wildcard include/config/X86_UMIP) \
-    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
-    $(wildcard include/config/X86_5LEVEL) \
-    $(wildcard include/config/PAGE_TABLE_ISOLATION) \
-    $(wildcard include/config/CPU_UNRET_ENTRY) \
-    $(wildcard include/config/X86_SGX) \
-  include/asm-generic/bitops/const_hweight.h \
-  include/asm-generic/bitops/instrumented-atomic.h \
-  include/linux/instrumented.h \
-  include/asm-generic/bitops/instrumented-non-atomic.h \
-    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
-  include/asm-generic/bitops/instrumented-lock.h \
-  include/asm-generic/bitops/le.h \
-  arch/x86/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/x86/include/uapi/asm/swab.h \
-  include/linux/byteorder/generic.h \
-  include/asm-generic/bitops/ext2-atomic-setbit.h \
-  include/linux/kstrtox.h \
-  include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
-  include/linux/math.h \
-  arch/x86/include/asm/div64.h \
-  include/asm-generic/div64.h \
-  include/linux/minmax.h \
+  arch/x86/include/asm/bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/DEBUG_ENTRY) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/once_lite.h \
   include/linux/panic.h \
     $(wildcard include/config/PANIC_TIMEOUT) \
   include/linux/printk.h \
@@ -207,17 +167,66 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/asm-generic/qspinlock_types.h \
     $(wildcard include/config/NR_CPUS) \
   include/asm-generic/qrwlock_types.h \
+  arch/x86/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/x86/include/uapi/asm/swab.h \
+  include/linux/byteorder/generic.h \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/PREEMPT_LOCK) \
     $(wildcard include/config/LOCKDEP) \
     $(wildcard include/config/LOCK_STAT) \
   include/linux/rwlock_types.h \
-  include/linux/once_lite.h \
   include/linux/dynamic_debug.h \
   include/linux/jump_label.h \
     $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
   arch/x86/include/asm/jump_label.h \
+  arch/x86/include/asm/nops.h \
+  arch/x86/include/asm/rmwcc.h \
+    $(wildcard include/config/CC_HAS_ASM_GOTO) \
+  arch/x86/include/asm/barrier.h \
+  include/asm-generic/barrier.h \
+  include/asm-generic/bitops/find.h \
+    $(wildcard include/config/GENERIC_FIND_FIRST_BIT) \
+  include/asm-generic/bitops/sched.h \
+  arch/x86/include/asm/arch_hweight.h \
+  arch/x86/include/asm/cpufeatures.h \
+  arch/x86/include/asm/required-features.h \
+    $(wildcard include/config/X86_MINIMUM_CPU_FAMILY) \
+    $(wildcard include/config/MATH_EMULATION) \
+    $(wildcard include/config/X86_PAE) \
+    $(wildcard include/config/X86_CMPXCHG64) \
+    $(wildcard include/config/X86_USE_3DNOW) \
+    $(wildcard include/config/X86_P6_NOP) \
+    $(wildcard include/config/MATOM) \
+    $(wildcard include/config/PARAVIRT_XXL) \
+  arch/x86/include/asm/disabled-features.h \
+    $(wildcard include/config/X86_SMAP) \
+    $(wildcard include/config/X86_UMIP) \
+    $(wildcard include/config/X86_INTEL_MEMORY_PROTECTION_KEYS) \
+    $(wildcard include/config/X86_5LEVEL) \
+    $(wildcard include/config/PAGE_TABLE_ISOLATION) \
+    $(wildcard include/config/CPU_UNRET_ENTRY) \
+    $(wildcard include/config/X86_SGX) \
+  include/asm-generic/bitops/const_hweight.h \
+  include/asm-generic/bitops/instrumented-atomic.h \
+  include/linux/instrumented.h \
+  include/asm-generic/bitops/instrumented-non-atomic.h \
+    $(wildcard include/config/KCSAN_ASSUME_PLAIN_WRITES_ATOMIC) \
+  include/asm-generic/bitops/instrumented-lock.h \
+  include/asm-generic/bitops/le.h \
+  include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/kstrtox.h \
+  include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  include/linux/math.h \
+  arch/x86/include/asm/div64.h \
+  include/asm-generic/div64.h \
+  include/linux/minmax.h \
   include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
   include/linux/stat.h \
@@ -367,13 +376,6 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/linux/atomic/atomic-instrumented.h \
   include/linux/bug.h \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/x86/include/asm/bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/DEBUG_ENTRY) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/BUG) \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
   arch/x86/include/uapi/asm/msr.h \
   include/linux/tracepoint-defs.h \
   arch/x86/include/asm/paravirt.h \
@@ -386,6 +388,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/PREEMPT_TRACER) \
     $(wildcard include/config/DEBUG_IRQFLAGS) \
     $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
+  include/linux/cleanup.h \
   arch/x86/include/asm/irqflags.h \
   arch/x86/include/asm/fpu/types.h \
   arch/x86/include/asm/vmxfeatures.h \
@@ -405,6 +408,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/CRASH_CORE) \
   include/linux/mm_types.h \
     $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
+    $(wildcard include/config/ARCH_WANT_HUGE_PMD_SHARE) \
     $(wildcard include/config/MEMCG) \
     $(wildcard include/config/USERFAULTFD) \
     $(wildcard include/config/SWAP) \
@@ -570,6 +574,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
     $(wildcard include/config/ZONE_DEVICE) \
+    $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/PM_SLEEP) \
     $(wildcard include/config/CONTIG_ALLOC) \
     $(wildcard include/config/CMA) \
@@ -582,7 +587,6 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/ZSMALLOC) \
     $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/MEMORY_HOTPLUG) \
-    $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/PAGE_EXTENSION) \
     $(wildcard include/config/DEFERRED_STRUCT_PAGE_INIT) \
     $(wildcard include/config/HAVE_MEMORYLESS_NODES) \
@@ -649,53 +653,8 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/linux/xarray.h \
     $(wildcard include/config/XARRAY_MULTI) \
   include/linux/kconfig.h \
-  include/linux/kobject_ns.h \
-  include/linux/kref.h \
-  include/linux/refcount.h \
-  include/linux/moduleparam.h \
-    $(wildcard include/config/ALPHA) \
-    $(wildcard include/config/IA64) \
-    $(wildcard include/config/PPC64) \
-  include/linux/rbtree_latch.h \
-  include/linux/error-injection.h \
-  include/asm-generic/error-injection.h \
-  include/linux/cfi.h \
-    $(wildcard include/config/CFI_CLANG_SHADOW) \
-  arch/x86/include/asm/module.h \
-    $(wildcard include/config/UNWINDER_ORC) \
-  include/asm-generic/module.h \
-    $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
-    $(wildcard include/config/MODULES_USE_ELF_REL) \
-    $(wildcard include/config/MODULES_USE_ELF_RELA) \
-  arch/x86/include/asm/orc_types.h \
-  include/linux/usb.h \
-    $(wildcard include/config/USB_MON) \
-    $(wildcard include/config/PM) \
-    $(wildcard include/config/ACPI) \
-    $(wildcard include/config/USB) \
-    $(wildcard include/config/USB_LED_TRIG) \
-  include/linux/mod_devicetable.h \
-  include/linux/uuid.h \
-  include/uapi/linux/uuid.h \
-  include/linux/usb/ch9.h \
-  include/linux/device.h \
-    $(wildcard include/config/ENERGY_MODEL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
-    $(wildcard include/config/PINCTRL) \
-    $(wildcard include/config/GENERIC_MSI_IRQ) \
-    $(wildcard include/config/DMA_OPS) \
-    $(wildcard include/config/DMA_DECLARE_COHERENT) \
-    $(wildcard include/config/DMA_CMA) \
-    $(wildcard include/config/SWIOTLB) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
-    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
-    $(wildcard include/config/DMA_OPS_BYPASS) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/DEVTMPFS) \
-    $(wildcard include/config/SYSFS_DEPRECATED) \
-  include/linux/dev_printk.h \
-  include/linux/ratelimit.h \
+  include/linux/sched/mm.h \
+    $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
   include/linux/sched.h \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
@@ -709,10 +668,10 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/SCHED_CORE) \
     $(wildcard include/config/CGROUP_SCHED) \
     $(wildcard include/config/BLK_DEV_IO_TRACE) \
-    $(wildcard include/config/PSI) \
     $(wildcard include/config/COMPAT_BRK) \
     $(wildcard include/config/CGROUPS) \
     $(wildcard include/config/BLK_CGROUP) \
+    $(wildcard include/config/PSI) \
     $(wildcard include/config/PAGE_OWNER) \
     $(wildcard include/config/EVENTFD) \
     $(wildcard include/config/ARCH_HAS_SCALED_CPUTIME) \
@@ -753,6 +712,7 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   include/linux/pid.h \
   include/linux/rculist.h \
     $(wildcard include/config/PROVE_RCU_LIST) \
+  include/linux/refcount.h \
   include/linux/sem.h \
   include/uapi/linux/sem.h \
   include/linux/ipc.h \
@@ -819,6 +779,55 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
   arch/x86/include/generated/asm/kmap_size.h \
   include/asm-generic/kmap_size.h \
     $(wildcard include/config/DEBUG_KMAP_LOCAL) \
+  include/linux/sync_core.h \
+    $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
+  arch/x86/include/asm/sync_core.h \
+  include/linux/kobject_ns.h \
+  include/linux/kref.h \
+  include/linux/moduleparam.h \
+    $(wildcard include/config/ALPHA) \
+    $(wildcard include/config/IA64) \
+    $(wildcard include/config/PPC64) \
+  include/linux/rbtree_latch.h \
+  include/linux/error-injection.h \
+  include/asm-generic/error-injection.h \
+  include/linux/cfi.h \
+    $(wildcard include/config/CFI_CLANG_SHADOW) \
+  arch/x86/include/asm/module.h \
+    $(wildcard include/config/UNWINDER_ORC) \
+  include/asm-generic/module.h \
+    $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
+    $(wildcard include/config/MODULES_USE_ELF_REL) \
+    $(wildcard include/config/MODULES_USE_ELF_RELA) \
+  arch/x86/include/asm/orc_types.h \
+  include/linux/usb.h \
+    $(wildcard include/config/USB_MON) \
+    $(wildcard include/config/ACPI) \
+    $(wildcard include/config/PM) \
+    $(wildcard include/config/USB) \
+    $(wildcard include/config/USB_LED_TRIG) \
+  include/linux/mod_devicetable.h \
+  include/linux/uuid.h \
+  include/uapi/linux/uuid.h \
+  include/linux/usb/ch9.h \
+  include/linux/device.h \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ_DOMAIN) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+    $(wildcard include/config/SYSFS_DEPRECATED) \
+  include/linux/dev_printk.h \
+  include/linux/ratelimit.h \
   include/linux/energy_model.h \
   include/linux/sched/cpufreq.h \
     $(wildcard include/config/CPU_FREQ) \
@@ -937,7 +946,6 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/FAULT_INJECTION_USERCOPY) \
   arch/x86/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
-    $(wildcard include/config/CC_ASM_GOTO_OUTPUT) \
     $(wildcard include/config/CC_HAS_ASM_GOTO_TIED_OUTPUT) \
     $(wildcard include/config/ARCH_HAS_COPY_MC) \
     $(wildcard include/config/X86_INTEL_USERCOPY) \
@@ -989,6 +997,6 @@ deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2
     $(wildcard include/config/KASAN_STACK) \
     $(wildcard include/config/KASAN_VMALLOC) \
 
-/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o: $(deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o)
+/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o: $(deps_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o)
 
-$(deps_/home/joao/Desktop/Devtitans/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o):
+$(deps_/home/devtitans-1/Desktop/graca/teste/Hands-On-Linux/smartlamp-kernel-module/probe_2025.o):
