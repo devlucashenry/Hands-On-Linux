@@ -91,7 +91,7 @@ int ldrGetValue() {
     int rawValue = analogRead(ldrPin);
     // Normalização 0-4095 para 0-100
     int normalized = map(constrain(rawValue, 0, ldrMax), 0, ldrMax, 0, 100);
-    return normalized;set
+    return normalized;
 }
 
 
