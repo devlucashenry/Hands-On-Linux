@@ -4,7 +4,7 @@ const int ldrPin = 34;
 
 // Variáveis de Controle e Protocolo
 int ldrMax = 4000;     
-int ledValue = 10;      // Intensidade do LED (0-100)
+int ledValue = 0;       // MODIFICADO: Intensidade do LED começa em 0 (Desligado)
 int thresholdValue = 80; // Valor padrão para ativação automática
 
 // Controle de Tempo (Envio Periódico)
@@ -16,7 +16,7 @@ void setup() {
     pinMode(ledPin, OUTPUT);
     pinMode(ldrPin, INPUT);
     
-    ledUpdate(); // Inicia com o valor padrão
+    ledUpdate(); // Inicia com o valor padrão (agora desligado)
     // Mensagem de boot não obrigatória pelo protocolo, mas útil
     // Serial.println("SmartLamp Initialized."); 
 }
@@ -93,6 +93,3 @@ int ldrGetValue() {
     int normalized = map(constrain(rawValue, 0, ldrMax), 0, ldrMax, 0, 100);
     return normalized;
 }
-
-
-
