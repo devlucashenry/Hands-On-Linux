@@ -26,7 +26,7 @@ static int  usb_write_serial(char *cmd, int param);                             
 static int smartlamp_config_serial(struct usb_device *dev)
 {
     int ret;
-    u32 baudrate = 921600; // Defina o baud rate que seu ESP32 usa!
+    u32 baudrate = 9600; // Defina o baud rate que seu ESP32 usa!
 
     printk(KERN_INFO "SmartLamp: Configurando a porta serial...\n");
 

@@ -31,6 +31,10 @@ __used __section("__versions") = {
 	{ 0xe1120e9e, "usb_deregister" },
 	{ 0x2e16f2d3, "usb_register_driver" },
 	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x8c8569cb, "kstrtoint" },
+	{ 0x9f984513, "strrchr" },
+	{ 0x87a21cb3, "__ubsan_handle_out_of_bounds" },
+	{ 0xcfa79023, "usb_bulk_msg" },
 	{ 0xc23b0b1c, "usb_control_msg" },
 	{ 0xeb233a45, "__kmalloc" },
 	{ 0x93c7edeb, "usb_find_common_endpoints" },
@@ -44,4 +48,4 @@ MODULE_INFO(depends, "");
 
 MODULE_ALIAS("usb:v10C4pEA60d*dc*dsc*dp*ic*isc*ip*in*");
 
-MODULE_INFO(srcversion, "C42D94DF3B061FFF6FD03C0");
+MODULE_INFO(srcversion, "5183187EBCA65D9F3144B7F");
